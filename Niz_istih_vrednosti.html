@@ -1,0 +1,21 @@
+<script>
+var list = [11, 3, 5, 1, 3, 6, 9];
+var found = 0;
+var text = "";
+for(var i=0; i < list.length; i++){
+	
+	if(list[i] === 3 ){
+	
+	found++;
+	text += i //+ " pozicija ";
+	//return text;
+	//document.write('i=' + i + '<br>');
+	}
+	//document.write('i=' + i + '<br>');
+}
+content = text + " pozicija";
+//console.log(i);
+alert(content[0]);
+alert(content[1]);
+document.write('ima ih: ' + found);
+</script>
